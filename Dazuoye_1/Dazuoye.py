@@ -17,3 +17,17 @@ def exist(a):
         return 1
     elif '4' in a:
         return 4
+
+    def main():
+        # 菜单界面
+        MENU = '''
+        YixinLi 欢迎您
+        Menu:
+        L - List all albums
+        A - Add new album
+        M - Markan album as completed
+        Q - Quit'''
+        print("Album Tracker 2.0 - by <YixinLi>")
+        print("4 albums loaded")
+        print(MENU)
+
